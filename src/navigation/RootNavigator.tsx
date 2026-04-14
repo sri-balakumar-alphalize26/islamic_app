@@ -68,12 +68,8 @@ function MainTabs() {
 }
 
 function AuthNavigator() {
-  const { onboardingDone, isServerConfigured } = useAuthStore();
-  const initialRoute = !isServerConfigured
-    ? 'ServerSetup'
-    : onboardingDone
-      ? 'Login'
-      : 'LanguageSelect';
+  const { onboardingDone } = useAuthStore();
+  const initialRoute = onboardingDone ? 'Login' : 'LanguageSelect';
   return (
     <AuthStack.Navigator screenOptions={{ headerShown: false }}
       initialRouteName={initialRoute}
