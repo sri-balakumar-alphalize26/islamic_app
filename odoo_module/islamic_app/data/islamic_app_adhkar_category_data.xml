@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="adhkar_cat_morning" model="islamic.adhkar.category">
+            <field name="name">Morning Adhkar</field>
+            <field name="name_ar">أذكار الصباح</field>
+            <field name="name_fr">Adhkar du matin</field>
+            <field name="name_tr">Sabah Zikirleri</field>
+            <field name="name_hi">सुबह के अज़कार</field>
+            <field name="code">morning</field>
+            <field name="icon">sunrise</field>
+            <field name="color">#F59E0B</field>
+            <field name="sequence">1</field>
+        </record>
+        <record id="adhkar_cat_evening" model="islamic.adhkar.category">
+            <field name="name">Evening Adhkar</field>
+            <field name="name_ar">أذكار المساء</field>
+            <field name="name_fr">Adhkar du soir</field>
+            <field name="name_tr">Akşam Zikirleri</field>
+            <field name="name_hi">शाम के अज़कार</field>
+            <field name="code">evening</field>
+            <field name="icon">sunset</field>
+            <field name="color">#6366F1</field>
+            <field name="sequence">2</field>
+        </record>
+        <record id="adhkar_cat_after_prayer" model="islamic.adhkar.category">
+            <field name="name">After Prayer</field>
+            <field name="name_ar">أذكار بعد الصلاة</field>
+            <field name="name_fr">Après la prière</field>
+            <field name="name_tr">Namaz Sonrası</field>
+            <field name="name_hi">नमाज़ के बाद</field>
+            <field name="code">after_prayer</field>
+            <field name="icon">prayer</field>
+            <field name="color">#10B981</field>
+            <field name="sequence">3</field>
+        </record>
+        <record id="adhkar_cat_sleep" model="islamic.adhkar.category">
+            <field name="name">Before Sleep</field>
+            <field name="name_ar">أذكار النوم</field>
+            <field name="name_fr">Avant le sommeil</field>
+            <field name="name_tr">Uyku Öncesi</field>
+            <field name="name_hi">सोने से पहले</field>
+            <field name="code">before_sleep</field>
+            <field name="icon">moon</field>
+            <field name="color">#8B5CF6</field>
+            <field name="sequence">4</field>
+        </record>
+        <record id="adhkar_cat_wakeup" model="islamic.adhkar.category">
+            <field name="name">Upon Waking Up</field>
+            <field name="name_ar">أذكار الاستيقاظ</field>
+            <field name="name_fr">Au réveil</field>
+            <field name="name_tr">Uyanınca</field>
+            <field name="name_hi">जागने पर</field>
+            <field name="code">wakeup</field>
+            <field name="icon">alarm</field>
+            <field name="color">#F97316</field>
+            <field name="sequence">5</field>
+        </record>
+        <record id="adhkar_cat_general" model="islamic.adhkar.category">
+            <field name="name">General Supplications</field>
+            <field name="name_ar">أدعية عامة</field>
+            <field name="name_fr">Invocations générales</field>
+            <field name="name_tr">Genel Dualar</field>
+            <field name="name_hi">सामान्य दुआएं</field>
+            <field name="code">general</field>
+            <field name="icon">hands</field>
+            <field name="color">#06B6D4</field>
+            <field name="sequence">6</field>
+        </record>
+        <record id="adhkar_cat_quran" model="islamic.adhkar.category">
+            <field name="name">Quranic Supplications</field>
+            <field name="name_ar">أدعية قرآنية</field>
+            <field name="name_fr">Invocations coraniques</field>
+            <field name="name_tr">Kur'an Duaları</field>
+            <field name="name_hi">कुरानी दुआएं</field>
+            <field name="code">quran_dua</field>
+            <field name="icon">book</field>
+            <field name="color">#059669</field>
+            <field name="sequence">7</field>
+        </record>
+    </data>
+</odoo>

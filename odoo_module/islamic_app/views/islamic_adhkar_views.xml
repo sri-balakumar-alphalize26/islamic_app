@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_adhkar_tree" model="ir.ui.view">
+        <field name="name">islamic.adhkar.tree</field><field name="model">islamic.adhkar</field>
+        <field name="arch" type="xml"><list><field name="name"/><field name="category_id"/><field name="time_of_day"/><field name="repeat_count"/><field name="state" widget="badge"/><field name="is_featured"/></list></field>
+    </record>
+    <record id="view_islamic_adhkar_form" model="ir.ui.view">
+        <field name="name">islamic.adhkar.form</field><field name="model">islamic.adhkar</field>
+        <field name="arch" type="xml"><form><header><field name="state" widget="statusbar"/></header><sheet><group><group><field name="name"/><field name="name_ar"/><field name="category_id"/><field name="time_of_day"/><field name="repeat_count"/></group><group><field name="reference"/><field name="is_featured"/><field name="is_premium"/><field name="audio_id"/></group></group><notebook><page string="Arabic"><field name="arabic_text"/><field name="arabic_diacritics"/></page><page string="English"><field name="translation_en"/><field name="transliteration_en"/><field name="virtue_en"/></page><page string="French"><field name="name_fr"/><field name="translation_fr"/><field name="virtue_fr"/></page><page string="Turkish"><field name="name_tr"/><field name="translation_tr"/><field name="virtue_tr"/></page><page string="Hindi"><field name="name_hi"/><field name="translation_hi"/><field name="virtue_hi"/></page></notebook></sheet></form></field>
+    </record>
+    <record id="action_islamic_adhkar" model="ir.actions.act_window">
+        <field name="name">Adhkar</field><field name="res_model">islamic.adhkar</field><field name="view_mode">list,form</field>
+    </record>
+    <record id="action_islamic_adhkar_category" model="ir.actions.act_window">
+        <field name="name">Adhkar Categories</field><field name="res_model">islamic.adhkar.category</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

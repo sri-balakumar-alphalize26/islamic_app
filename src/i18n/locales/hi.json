@@ -1,0 +1,106 @@
+{
+  "app_name": "इस्लामिक ऐप",
+  "welcome": "स्वागत है",
+  "bismillah": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है",
+  "auth": {
+    "login": "लॉगिन",
+    "register": "रजिस्टर",
+    "email": "ईमेल पता",
+    "phone": "फ़ोन नंबर",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "full_name": "पूरा नाम",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "no_account": "अकाउंट नहीं है?",
+    "have_account": "पहले से अकाउंट है?",
+    "sign_up": "साइन अप",
+    "sign_in": "साइन इन",
+    "continue_google": "Google से जारी रखें",
+    "or": "या",
+    "logout": "लॉगआउट",
+    "select_language": "अपनी भाषा चुनें"
+  },
+  "tabs": {
+    "home": "होम",
+    "quran": "क़ुरआन",
+    "adhkar": "अज़कार",
+    "audio": "ऑडियो",
+    "profile": "प्रोफ़ाइल"
+  },
+  "home": {
+    "greeting_morning": "सुप्रभात",
+    "greeting_afternoon": "नमस्कार",
+    "greeting_evening": "शुभ संध्या",
+    "daily_wisdom": "आज की बात",
+    "prayer_times": "नमाज़ के वक़्त",
+    "morning_adhkar": "सुबह के अज़कार",
+    "evening_adhkar": "शाम के अज़कार",
+    "your_streak": "आपकी लकीर",
+    "days": "दिन"
+  },
+  "quran": {
+    "surah_list": "सूरह सूची",
+    "search": "क़ुरआन में खोजें",
+    "ayahs": "आयतें",
+    "meccan": "मक्की",
+    "medinan": "मदनी"
+  },
+  "adhkar": {
+    "categories": "श्रेणियां",
+    "counter": "काउंटर",
+    "tap_to_count": "गिनने के लिए टैप करें",
+    "completed": "पूरा हो गया!",
+    "remaining": "बाकी",
+    "reset": "रीसेट",
+    "items": "अज़कार"
+  },
+  "audio": {
+    "recitations": "तिलावत",
+    "lectures": "दर्स",
+    "sister_nasira": "बहन नासिरा"
+  },
+  "ai": {
+    "assistant": "AI सहायक",
+    "ask_question": "इस्लाम के बारे में सवाल पूछें...",
+    "thinking": "सोच रहा है..."
+  },
+  "profile": {
+    "my_profile": "मेरी प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "subscription": "सब्सक्रिप्शन",
+    "language": "भाषा",
+    "family_ties": "सिलाए रहम",
+    "total_dhikr": "कुल ज़िक्र",
+    "current_streak": "वर्तमान लकीर",
+    "pages_read": "पढ़े गए पृष्ठ",
+    "listening_time": "सुनने का समय"
+  },
+  "family": {
+    "title": "सिलाए रहम",
+    "add_member": "परिवार का सदस्य जोड़ें",
+    "overdue": "बकाया"
+  },
+  "subscription": {
+    "premium": "प्रीमियम",
+    "subscribe": "अभी सब्सक्राइब करें",
+    "free_trial": "3 दिन का मुफ़्त ट्रायल",
+    "cancel_anytime": "कभी भी रद्द करें",
+    "most_popular": "सबसे लोकप्रिय"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "कोई त्रुटि हुई",
+    "retry": "फिर कोशिश करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "search": "खोजें"
+  },
+  "admin": {
+    "dashboard": "एडमिन डैशबोर्ड",
+    "analytics": "विश्लेषण",
+    "total_users": "कुल उपयोगकर्ता",
+    "active_users": "सक्रिय उपयोगकर्ता",
+    "premium_users": "प्रीमियम उपयोगकर्ता",
+    "revenue": "राजस्व"
+  }
+}

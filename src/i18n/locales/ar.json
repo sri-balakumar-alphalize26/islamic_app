@@ -1,0 +1,106 @@
+{
+  "app_name": "التطبيق الإسلامي",
+  "welcome": "مرحباً",
+  "bismillah": "بسم الله الرحمن الرحيم",
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "password": "كلمة المرور",
+    "confirm_password": "تأكيد كلمة المرور",
+    "full_name": "الاسم الكامل",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "no_account": "ليس لديك حساب؟",
+    "have_account": "لديك حساب بالفعل؟",
+    "sign_up": "إنشاء حساب",
+    "sign_in": "تسجيل الدخول",
+    "continue_google": "المتابعة مع Google",
+    "or": "أو",
+    "logout": "تسجيل الخروج",
+    "select_language": "اختر لغتك"
+  },
+  "tabs": {
+    "home": "الرئيسية",
+    "quran": "القرآن",
+    "adhkar": "الأذكار",
+    "audio": "الصوتيات",
+    "profile": "الملف الشخصي"
+  },
+  "home": {
+    "greeting_morning": "صباح الخير",
+    "greeting_afternoon": "مساء الخير",
+    "greeting_evening": "مساء النور",
+    "daily_wisdom": "حكمة اليوم",
+    "prayer_times": "مواقيت الصلاة",
+    "morning_adhkar": "أذكار الصباح",
+    "evening_adhkar": "أذكار المساء",
+    "your_streak": "سلسلتك",
+    "days": "أيام"
+  },
+  "quran": {
+    "surah_list": "قائمة السور",
+    "search": "ابحث في القرآن",
+    "ayahs": "آيات",
+    "meccan": "مكية",
+    "medinan": "مدنية"
+  },
+  "adhkar": {
+    "categories": "الفئات",
+    "counter": "العداد",
+    "tap_to_count": "اضغط للعد",
+    "completed": "اكتمل!",
+    "remaining": "متبقي",
+    "reset": "إعادة تعيين",
+    "items": "أذكار"
+  },
+  "audio": {
+    "recitations": "التلاوات",
+    "lectures": "المحاضرات",
+    "sister_nasira": "الأخت ناصرة"
+  },
+  "ai": {
+    "assistant": "المساعد الذكي",
+    "ask_question": "اطرح سؤالاً عن الإسلام...",
+    "thinking": "جارٍ التفكير..."
+  },
+  "profile": {
+    "my_profile": "ملفي الشخصي",
+    "settings": "الإعدادات",
+    "subscription": "الاشتراك",
+    "language": "اللغة",
+    "family_ties": "صلة الرحم",
+    "total_dhikr": "إجمالي الأذكار",
+    "current_streak": "السلسلة الحالية",
+    "pages_read": "الصفحات المقروءة",
+    "listening_time": "وقت الاستماع"
+  },
+  "family": {
+    "title": "صلة الرحم",
+    "add_member": "إضافة فرد من العائلة",
+    "overdue": "متأخر"
+  },
+  "subscription": {
+    "premium": "مميز",
+    "subscribe": "اشترك الآن",
+    "free_trial": "تجربة مجانية 3 أيام",
+    "cancel_anytime": "إلغاء في أي وقت",
+    "most_popular": "الأكثر شيوعاً"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "search": "بحث"
+  },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "analytics": "التحليلات",
+    "total_users": "إجمالي المستخدمين",
+    "active_users": "المستخدمون النشطون",
+    "premium_users": "المستخدمون المميزون",
+    "revenue": "الإيرادات"
+  }
+}

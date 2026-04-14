@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_notification_tree" model="ir.ui.view">
+        <field name="name">islamic.notification.tree</field><field name="model">islamic.notification</field>
+        <field name="arch" type="xml"><list><field name="app_user_id"/><field name="notification_category"/><field name="title"/><field name="is_read"/><field name="is_push_sent"/><field name="create_date"/></list></field>
+    </record>
+    <record id="action_islamic_notification" model="ir.actions.act_window">
+        <field name="name">Notifications</field><field name="res_model">islamic.notification</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

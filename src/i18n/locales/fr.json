@@ -1,0 +1,106 @@
+{
+  "app_name": "Application Islamique",
+  "welcome": "Bienvenue",
+  "bismillah": "Au nom d'Allah, le Tout Miséricordieux",
+  "auth": {
+    "login": "Connexion",
+    "register": "Inscription",
+    "email": "Adresse e-mail",
+    "phone": "Numéro de téléphone",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "full_name": "Nom complet",
+    "forgot_password": "Mot de passe oublié ?",
+    "no_account": "Pas de compte ?",
+    "have_account": "Déjà un compte ?",
+    "sign_up": "S'inscrire",
+    "sign_in": "Se connecter",
+    "continue_google": "Continuer avec Google",
+    "or": "ou",
+    "logout": "Déconnexion",
+    "select_language": "Choisissez votre langue"
+  },
+  "tabs": {
+    "home": "Accueil",
+    "quran": "Coran",
+    "adhkar": "Adhkar",
+    "audio": "Audio",
+    "profile": "Profil"
+  },
+  "home": {
+    "greeting_morning": "Bonjour",
+    "greeting_afternoon": "Bon après-midi",
+    "greeting_evening": "Bonsoir",
+    "daily_wisdom": "Sagesse du jour",
+    "prayer_times": "Horaires de prière",
+    "morning_adhkar": "Adhkar du matin",
+    "evening_adhkar": "Adhkar du soir",
+    "your_streak": "Votre série",
+    "days": "jours"
+  },
+  "quran": {
+    "surah_list": "Liste des sourates",
+    "search": "Rechercher dans le Coran",
+    "ayahs": "versets",
+    "meccan": "Mecquoise",
+    "medinan": "Médinoise"
+  },
+  "adhkar": {
+    "categories": "Catégories",
+    "counter": "Compteur",
+    "tap_to_count": "Appuyez pour compter",
+    "completed": "Terminé !",
+    "remaining": "restant",
+    "reset": "Réinitialiser",
+    "items": "adhkar"
+  },
+  "audio": {
+    "recitations": "Récitations",
+    "lectures": "Conférences",
+    "sister_nasira": "Sœur Nasira"
+  },
+  "ai": {
+    "assistant": "Assistant IA",
+    "ask_question": "Posez une question sur l'Islam...",
+    "thinking": "Réflexion en cours..."
+  },
+  "profile": {
+    "my_profile": "Mon profil",
+    "settings": "Paramètres",
+    "subscription": "Abonnement",
+    "language": "Langue",
+    "family_ties": "Liens familiaux",
+    "total_dhikr": "Total Dhikr",
+    "current_streak": "Série actuelle",
+    "pages_read": "Pages lues",
+    "listening_time": "Temps d'écoute"
+  },
+  "family": {
+    "title": "Liens familiaux",
+    "add_member": "Ajouter un membre",
+    "overdue": "En retard"
+  },
+  "subscription": {
+    "premium": "Premium",
+    "subscribe": "S'abonner maintenant",
+    "free_trial": "3 jours d'essai gratuit",
+    "cancel_anytime": "Annuler à tout moment",
+    "most_popular": "Le plus populaire"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "search": "Rechercher"
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "analytics": "Analytiques",
+    "total_users": "Total utilisateurs",
+    "active_users": "Utilisateurs actifs",
+    "premium_users": "Utilisateurs premium",
+    "revenue": "Revenus"
+  }
+}

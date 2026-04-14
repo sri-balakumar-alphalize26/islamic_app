@@ -1,0 +1,106 @@
+{
+  "app_name": "İslami Uygulama",
+  "welcome": "Hoş Geldiniz",
+  "bismillah": "Rahman ve Rahim olan Allah'ın adıyla",
+  "auth": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "password": "Şifre",
+    "confirm_password": "Şifreyi Onayla",
+    "full_name": "Ad Soyad",
+    "forgot_password": "Şifremi Unuttum?",
+    "no_account": "Hesabınız yok mu?",
+    "have_account": "Zaten hesabınız var mı?",
+    "sign_up": "Kayıt Ol",
+    "sign_in": "Giriş Yap",
+    "continue_google": "Google ile Devam Et",
+    "or": "veya",
+    "logout": "Çıkış Yap",
+    "select_language": "Dilinizi Seçin"
+  },
+  "tabs": {
+    "home": "Ana Sayfa",
+    "quran": "Kuran",
+    "adhkar": "Zikirler",
+    "audio": "Ses",
+    "profile": "Profil"
+  },
+  "home": {
+    "greeting_morning": "Günaydın",
+    "greeting_afternoon": "İyi günler",
+    "greeting_evening": "İyi akşamlar",
+    "daily_wisdom": "Günün Hikmeti",
+    "prayer_times": "Namaz Vakitleri",
+    "morning_adhkar": "Sabah Zikirleri",
+    "evening_adhkar": "Akşam Zikirleri",
+    "your_streak": "Seriniz",
+    "days": "gün"
+  },
+  "quran": {
+    "surah_list": "Sure Listesi",
+    "search": "Kuran'da Ara",
+    "ayahs": "ayet",
+    "meccan": "Mekki",
+    "medinan": "Medeni"
+  },
+  "adhkar": {
+    "categories": "Kategoriler",
+    "counter": "Sayaç",
+    "tap_to_count": "Saymak için dokun",
+    "completed": "Tamamlandı!",
+    "remaining": "kaldı",
+    "reset": "Sıfırla",
+    "items": "zikir"
+  },
+  "audio": {
+    "recitations": "Tilavetler",
+    "lectures": "Dersler",
+    "sister_nasira": "Nasira Hanım"
+  },
+  "ai": {
+    "assistant": "Yapay Zeka Asistanı",
+    "ask_question": "İslam hakkında bir soru sorun...",
+    "thinking": "Düşünüyor..."
+  },
+  "profile": {
+    "my_profile": "Profilim",
+    "settings": "Ayarlar",
+    "subscription": "Abonelik",
+    "language": "Dil",
+    "family_ties": "Sıla-i Rahim",
+    "total_dhikr": "Toplam Zikir",
+    "current_streak": "Mevcut Seri",
+    "pages_read": "Okunan Sayfalar",
+    "listening_time": "Dinleme Süresi"
+  },
+  "family": {
+    "title": "Sıla-i Rahim",
+    "add_member": "Aile Üyesi Ekle",
+    "overdue": "Gecikmeli"
+  },
+  "subscription": {
+    "premium": "Premium",
+    "subscribe": "Şimdi Abone Ol",
+    "free_trial": "3 gün ücretsiz deneme",
+    "cancel_anytime": "İstediğiniz zaman iptal edin",
+    "most_popular": "En Popüler"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "search": "Ara"
+  },
+  "admin": {
+    "dashboard": "Yönetim Paneli",
+    "analytics": "Analitik",
+    "total_users": "Toplam Kullanıcı",
+    "active_users": "Aktif Kullanıcılar",
+    "premium_users": "Premium Kullanıcılar",
+    "revenue": "Gelir"
+  }
+}

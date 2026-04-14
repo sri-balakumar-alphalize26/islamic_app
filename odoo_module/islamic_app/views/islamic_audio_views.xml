@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_audio_tree" model="ir.ui.view">
+        <field name="name">islamic.audio.tree</field><field name="model">islamic.audio</field>
+        <field name="arch" type="xml"><list><field name="name"/><field name="audio_type"/><field name="reciter_name"/><field name="duration_display"/><field name="state" widget="badge"/><field name="play_count"/><field name="is_premium"/></list></field>
+    </record>
+    <record id="view_islamic_audio_form" model="ir.ui.view">
+        <field name="name">islamic.audio.form</field><field name="model">islamic.audio</field>
+        <field name="arch" type="xml"><form><header><button name="action_publish" string="Publish" type="object" class="oe_highlight"/><field name="state" widget="statusbar"/></header><sheet><group><group><field name="name"/><field name="name_ar"/><field name="audio_type"/><field name="reciter_name"/><field name="language"/></group><group><field name="audio_url"/><field name="duration_seconds"/><field name="file_size_mb"/><field name="is_premium"/><field name="is_downloadable"/><field name="is_sister_nasira"/></group></group><notebook><page string="Files"><group><field name="audio_file" filename="audio_file_name"/><field name="audio_url_hq"/><field name="audio_url_lq"/></group></page><page string="Translations"><group><field name="name_fr"/><field name="name_tr"/><field name="name_hi"/></group></page></notebook></sheet></form></field>
+    </record>
+    <record id="action_islamic_audio" model="ir.actions.act_window">
+        <field name="name">Audio</field><field name="res_model">islamic.audio</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

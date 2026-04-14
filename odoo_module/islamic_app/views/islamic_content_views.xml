@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_surah_tree" model="ir.ui.view">
+        <field name="name">islamic.surah.tree</field>
+        <field name="model">islamic.surah</field>
+        <field name="arch" type="xml">
+            <list><field name="number"/><field name="name"/><field name="name_arabic"/><field name="total_ayahs"/><field name="revelation_type"/></list>
+        </field>
+    </record>
+    <record id="view_islamic_surah_form" model="ir.ui.view">
+        <field name="name">islamic.surah.form</field>
+        <field name="model">islamic.surah</field>
+        <field name="arch" type="xml">
+            <form><sheet><group><group><field name="number"/><field name="name"/><field name="name_arabic"/><field name="total_ayahs"/><field name="revelation_type"/></group><group><field name="name_french"/><field name="name_turkish"/><field name="name_hindi"/><field name="juz_start"/><field name="page_start"/></group></group><notebook><page string="Ayahs"><field name="ayah_ids"><list editable="bottom"><field name="number"/><field name="text_arabic"/><field name="translation_en"/><field name="juz"/><field name="page"/></list></field></page></notebook></sheet></form>
+        </field>
+    </record>
+    <record id="action_islamic_surah" model="ir.actions.act_window">
+        <field name="name">Surahs</field><field name="res_model">islamic.surah</field><field name="view_mode">list,form</field>
+    </record>
+    <record id="view_islamic_content_tree" model="ir.ui.view">
+        <field name="name">islamic.content.tree</field>
+        <field name="model">islamic.content</field>
+        <field name="arch" type="xml">
+            <list><field name="name"/><field name="content_type"/><field name="state" widget="badge"/><field name="is_featured"/><field name="view_count"/><field name="published_date"/></list>
+        </field>
+    </record>
+    <record id="view_islamic_content_form" model="ir.ui.view">
+        <field name="name">islamic.content.form</field>
+        <field name="model">islamic.content</field>
+        <field name="arch" type="xml">
+            <form><header><field name="state" widget="statusbar"/></header><sheet><group><group><field name="name"/><field name="content_type"/><field name="category_id"/><field name="reference"/></group><group><field name="is_featured"/><field name="is_daily"/><field name="scheduled_date"/><field name="author_id"/></group></group><notebook><page string="English"><field name="body_en"/></page><page string="Arabic"><field name="title_ar"/><field name="arabic_text"/><field name="body_ar"/></page><page string="French"><field name="title_fr"/><field name="body_fr"/></page><page string="Turkish"><field name="title_tr"/><field name="body_tr"/></page><page string="Hindi"><field name="title_hi"/><field name="body_hi"/></page></notebook></sheet></form>
+        </field>
+    </record>
+    <record id="action_islamic_content" model="ir.actions.act_window">
+        <field name="name">Content</field><field name="res_model">islamic.content</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

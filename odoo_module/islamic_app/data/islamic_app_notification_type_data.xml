@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="notif_type_prayer" model="islamic.notification.type">
+            <field name="name">Prayer Time</field>
+            <field name="code">prayer_time</field>
+            <field name="icon">mosque</field>
+            <field name="sequence">1</field>
+        </record>
+        <record id="notif_type_morning" model="islamic.notification.type">
+            <field name="name">Morning Adhkar</field>
+            <field name="code">morning_adhkar</field>
+            <field name="icon">sunrise</field>
+            <field name="sequence">2</field>
+        </record>
+        <record id="notif_type_evening" model="islamic.notification.type">
+            <field name="name">Evening Adhkar</field>
+            <field name="code">evening_adhkar</field>
+            <field name="icon">sunset</field>
+            <field name="sequence">3</field>
+        </record>
+        <record id="notif_type_family" model="islamic.notification.type">
+            <field name="name">Family Ties</field>
+            <field name="code">family_ties</field>
+            <field name="icon">people</field>
+            <field name="sequence">4</field>
+        </record>
+        <record id="notif_type_streak" model="islamic.notification.type">
+            <field name="name">Streak Reminder</field>
+            <field name="code">streak</field>
+            <field name="icon">fire</field>
+            <field name="sequence">5</field>
+        </record>
+        <record id="notif_type_wakeup" model="islamic.notification.type">
+            <field name="name">Wake-up Supplication</field>
+            <field name="code">wakeup</field>
+            <field name="icon">alarm</field>
+            <field name="sequence">6</field>
+        </record>
+    </data>
+</odoo>

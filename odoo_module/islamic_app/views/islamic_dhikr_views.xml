@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_dhikr_log_tree" model="ir.ui.view">
+        <field name="name">islamic.dhikr.log.tree</field><field name="model">islamic.dhikr.log</field>
+        <field name="arch" type="xml"><list><field name="app_user_id"/><field name="adhkar_id"/><field name="count"/><field name="target_count"/><field name="completed"/><field name="date"/><field name="time_of_day"/></list></field>
+    </record>
+    <record id="action_islamic_dhikr_log" model="ir.actions.act_window">
+        <field name="name">Dhikr Logs</field><field name="res_model">islamic.dhikr.log</field><field name="view_mode">list</field>
+    </record>
+</odoo>

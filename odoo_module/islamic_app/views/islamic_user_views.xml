@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_app_user_tree" model="ir.ui.view">
+        <field name="name">islamic.app.user.tree</field><field name="model">islamic.app.user</field>
+        <field name="arch" type="xml"><list><field name="display_name_app"/><field name="phone_number"/><field name="preferred_language"/><field name="app_role"/><field name="is_premium"/><field name="total_dhikr_count"/><field name="current_streak"/><field name="last_active"/></list></field>
+    </record>
+    <record id="view_islamic_app_user_form" model="ir.ui.view">
+        <field name="name">islamic.app.user.form</field><field name="model">islamic.app.user</field>
+        <field name="arch" type="xml"><form><sheet><group><group string="Profile"><field name="display_name_app"/><field name="phone_number"/><field name="preferred_language"/><field name="app_role"/><field name="gender"/><field name="country_id"/><field name="city"/></group><group string="App Info"><field name="is_premium"/><field name="device_type"/><field name="app_version"/><field name="last_active"/><field name="last_login"/><field name="auth_provider"/></group></group><notebook><page string="Statistics"><group><field name="total_dhikr_count"/><field name="current_streak"/><field name="longest_streak"/><field name="total_quran_pages_read"/><field name="total_listening_minutes"/></group></page><page string="Islamic Preferences"><group><field name="prayer_calculation_method"/><field name="madhab"/><field name="latitude"/><field name="longitude"/></group></page><page string="Notifications"><group><field name="prayer_notification"/><field name="adhkar_morning_notification"/><field name="adhkar_evening_notification"/><field name="family_ties_notification"/><field name="wakeup_alarm"/></group></page></notebook></sheet></form></field>
+    </record>
+    <record id="action_islamic_app_user" model="ir.actions.act_window">
+        <field name="name">App Users</field><field name="res_model">islamic.app.user</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

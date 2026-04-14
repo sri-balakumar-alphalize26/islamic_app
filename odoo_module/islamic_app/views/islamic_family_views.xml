@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_islamic_family_member_tree" model="ir.ui.view">
+        <field name="name">islamic.family.member.tree</field><field name="model">islamic.family.member</field>
+        <field name="arch" type="xml"><list><field name="app_user_id"/><field name="name"/><field name="relationship"/><field name="last_contact_date"/><field name="next_reminder_date"/><field name="is_overdue"/></list></field>
+    </record>
+    <record id="action_islamic_family_member" model="ir.actions.act_window">
+        <field name="name">Family Members</field><field name="res_model">islamic.family.member</field><field name="view_mode">list,form</field>
+    </record>
+</odoo>

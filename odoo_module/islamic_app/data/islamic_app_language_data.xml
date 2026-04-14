@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="lang_english" model="islamic.app.language">
+            <field name="name">English</field>
+            <field name="code">en</field>
+            <field name="sequence">1</field>
+            <field name="is_rtl">False</field>
+            <field name="font_family">Inter, system-ui</field>
+            <field name="flag_icon">🇬🇧</field>
+        </record>
+        <record id="lang_arabic" model="islamic.app.language">
+            <field name="name">العربية</field>
+            <field name="code">ar</field>
+            <field name="sequence">2</field>
+            <field name="is_rtl">True</field>
+            <field name="font_family">Amiri, Scheherazade New</field>
+            <field name="flag_icon">🇸🇦</field>
+        </record>
+        <record id="lang_french" model="islamic.app.language">
+            <field name="name">Français</field>
+            <field name="code">fr</field>
+            <field name="sequence">3</field>
+            <field name="is_rtl">False</field>
+            <field name="font_family">Inter, system-ui</field>
+            <field name="flag_icon">🇫🇷</field>
+        </record>
+        <record id="lang_turkish" model="islamic.app.language">
+            <field name="name">Türkçe</field>
+            <field name="code">tr</field>
+            <field name="sequence">4</field>
+            <field name="is_rtl">False</field>
+            <field name="font_family">Inter, system-ui</field>
+            <field name="flag_icon">🇹🇷</field>
+        </record>
+        <record id="lang_hindi" model="islamic.app.language">
+            <field name="name">हिन्दी</field>
+            <field name="code">hi</field>
+            <field name="sequence">5</field>
+            <field name="is_rtl">False</field>
+            <field name="font_family">Noto Sans Devanagari</field>
+            <field name="flag_icon">🇮🇳</field>
+        </record>
+    </data>
+</odoo>

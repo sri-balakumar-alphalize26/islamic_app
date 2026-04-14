@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_islamic_app_root" name="Islamic App" sequence="100" web_icon="islamic_app,static/description/icon.png"/>
+    
+    <!-- Content -->
+    <menuitem id="menu_islamic_content" name="Content" parent="menu_islamic_app_root" sequence="10"/>
+    <menuitem id="menu_islamic_surahs" name="Surahs" parent="menu_islamic_content" action="action_islamic_surah" sequence="1"/>
+    <menuitem id="menu_islamic_content_list" name="Articles &amp; Wisdom" parent="menu_islamic_content" action="action_islamic_content" sequence="2"/>
+    
+    <!-- Adhkar -->
+    <menuitem id="menu_islamic_adhkar_parent" name="Adhkar" parent="menu_islamic_app_root" sequence="20"/>
+    <menuitem id="menu_islamic_adhkar" name="Supplications" parent="menu_islamic_adhkar_parent" action="action_islamic_adhkar" sequence="1"/>
+    <menuitem id="menu_islamic_adhkar_cat" name="Categories" parent="menu_islamic_adhkar_parent" action="action_islamic_adhkar_category" sequence="2"/>
+    
+    <!-- Audio -->
+    <menuitem id="menu_islamic_audio" name="Audio" parent="menu_islamic_app_root" action="action_islamic_audio" sequence="30"/>
+    
+    <!-- Users -->
+    <menuitem id="menu_islamic_users_parent" name="Users" parent="menu_islamic_app_root" sequence="40"/>
+    <menuitem id="menu_islamic_users" name="App Users" parent="menu_islamic_users_parent" action="action_islamic_app_user" sequence="1"/>
+    <menuitem id="menu_islamic_family" name="Family Members" parent="menu_islamic_users_parent" action="action_islamic_family_member" sequence="2"/>
+    
+    <!-- Engagement -->
+    <menuitem id="menu_islamic_engagement" name="Engagement" parent="menu_islamic_app_root" sequence="50"/>
+    <menuitem id="menu_islamic_dhikr" name="Dhikr Logs" parent="menu_islamic_engagement" action="action_islamic_dhikr_log" sequence="1"/>
+    <menuitem id="menu_islamic_notifications" name="Notifications" parent="menu_islamic_engagement" action="action_islamic_notification" sequence="2"/>
+    
+    <!-- AI -->
+    <menuitem id="menu_islamic_ai" name="AI Assistant" parent="menu_islamic_app_root" sequence="60"/>
+    <menuitem id="menu_islamic_ai_convos" name="Conversations" parent="menu_islamic_ai" action="action_islamic_ai_conversation" sequence="1"/>
+    <menuitem id="menu_islamic_ai_logs" name="Query Logs" parent="menu_islamic_ai" action="action_islamic_ai_query_log" sequence="2"/>
+    <menuitem id="menu_islamic_ai_config" name="Configuration" parent="menu_islamic_ai" action="action_islamic_ai_config" sequence="3"/>
+    
+    <!-- Billing -->
+    <menuitem id="menu_islamic_billing" name="Billing" parent="menu_islamic_app_root" sequence="70"/>
+    <menuitem id="menu_islamic_plans" name="Plans" parent="menu_islamic_billing" action="action_islamic_subscription_plan" sequence="1"/>
+    <menuitem id="menu_islamic_subscriptions" name="Subscriptions" parent="menu_islamic_billing" action="action_islamic_subscription" sequence="2"/>
+    <menuitem id="menu_islamic_payments" name="Payments" parent="menu_islamic_billing" action="action_islamic_payment" sequence="3"/>
+</odoo>
