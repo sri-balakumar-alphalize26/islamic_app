@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS } from '../../config';
-import { fetchOdooDatabases, setServerConfig, checkIslamicModule } from '../../api/client';
+import { fetchOdooDatabases, setServerConfig } from '../../api/client';
 import { useAuthStore } from '../../contexts/AuthStore';
 
 export default function ServerSetupScreen({ navigation }: any) {
@@ -44,7 +44,7 @@ export default function ServerSetupScreen({ navigation }: any) {
       const dbs = await fetchOdooDatabases(url);
       if (myId !== fetchId.current) return;
       if (dbs.length === 0) {
-        Alert.alert('No Databases', 'No databases were found on this server.');
+        Alert.alert('No Databases', 'No databases with the Islamic App module installed were found on this server.');
       } else {
         setDatabases(dbs);
         if (dbs.length === 1) setSelectedDb(dbs[0]);
@@ -70,15 +70,6 @@ export default function ServerSetupScreen({ navigation }: any) {
     setSaving(true);
     try {
       const url = normalizeUrl(serverUrl);
-      const hasModule = await checkIslamicModule(url, selectedDb);
-      if (!hasModule) {
-        Alert.alert(
-          'Module Not Found',
-          `The Islamic App module is not installed on database "${selectedDb}". Please choose a different database or install the module on the server.`
-        );
-        setSaving(false);
-        return;
-      }
       await setServerConfig(url, selectedDb);
       markServerConfigured();
       navigation.replace('LanguageSelect');

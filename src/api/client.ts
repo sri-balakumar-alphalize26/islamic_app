@@ -59,6 +59,7 @@ export async function checkIslamicModule(serverUrl: string, database: string): P
 /** Fetch databases from Odoo server */
 export async function fetchOdooDatabases(serverUrl: string): Promise<string[]> {
   const url = serverUrl.replace(/\/+$/, '');
+  let allDbs: string[] = [];
   try {
     const res = await axios.post(
       `${url}/jsonrpc`,
@@ -74,16 +75,17 @@ export async function fetchOdooDatabases(serverUrl: string): Promise<string[]> {
       const err = res.data.error;
       throw new Error(err.data?.message || err.message || 'Odoo RPC Error');
     }
-    return Array.isArray(res.data?.result) ? res.data.result : [];
+    allDbs = Array.isArray(res.data?.result) ? res.data.result : [];
   } catch (e: any) {
-    if (e.response) {
-      throw new Error(`Odoo HTTP ${e.response.status}`);
-    }
-    if (e.request) {
-      throw new Error('Cannot connect to Odoo server. Check IP and port.');
-    }
+    if (e.response) throw new Error(`Odoo HTTP ${e.response.status}`);
+    if (e.request) throw new Error('Cannot connect to Odoo server. Check IP and port.');
     throw e;
   }
+
+  if (allDbs.length === 0) return [];
+
+  const checks = await Promise.all(allDbs.map((db) => checkIslamicModule(url, db)));
+  return allDbs.filter((_, i) => checks[i]);
 }
 
 api.interceptors.request.use(async (config) => {
